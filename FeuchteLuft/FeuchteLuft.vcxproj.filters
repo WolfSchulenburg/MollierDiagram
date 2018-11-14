@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{7b597a98-e31e-408a-abaa-6975e236c5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{958f061e-c9db-40df-90d8-3d23afba198c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Mollier">
+      <UniqueIdentifier>{f3ac8d9f-f428-4d01-b18c-87a7c7266f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Mollier">
+      <UniqueIdentifier>{c9ceedc6-d447-47ab-bcea-a28bd1059751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Dialogs">
+      <UniqueIdentifier>{b5ee57c3-a9b1-4416-97f6-02175cfc8f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Dialogs">
+      <UniqueIdentifier>{874e6be5-99f5-4606-933e-5ab6b638cad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\AhuWizard">
+      <UniqueIdentifier>{1ac1c372-9e80-4015-9155-9d2cc9433d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\AhuWizard">
+      <UniqueIdentifier>{0a14b3d4-8781-4a05-b6b1-b8b1c01ac42d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeuchteLuft.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuchteLuftDoc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuchteLuftView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPoint.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Headerdateien\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDlg.h">
+      <Filter>Headerdateien\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationDlg.h">
+      <Filter>Headerdateien\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePoint.h">
+      <Filter>Headerdateien\Mollier</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionStorage.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePointDlg.h">
+      <Filter>Headerdateien\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuchteLuftRegistry.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardPage.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PsychometricChart.h">
+      <Filter>Headerdateien\Mollier</Filter>
+    </ClInclude>
+    <ClInclude Include="AhuFirstWizPg.h">
+      <Filter>Headerdateien\AhuWizard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeuchteLuft.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="FeuchteLuftDoc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="FeuchteLuftView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Quelldateien\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationDlg.cpp">
+      <Filter>Quelldateien\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDlg.cpp">
+      <Filter>Quelldateien\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePoint.cpp">
+      <Filter>Quelldateien\Mollier</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionStorage.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePointDlg.cpp">
+      <Filter>Quelldateien\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FeuchteLuftRegistry.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardPage.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AhuFirstWizPg.cpp">
+      <Filter>Quelldateien\AhuWizard</Filter>
+    </ClCompile>
+    <ClCompile Include="PsychometricChart.cpp">
+      <Filter>Quelldateien\Mollier</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FeuchteLuft.reg" />
+    <None Include="res\FeuchteLuft.rc2">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FeuchteLuft.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\FeuchteLuftDoc.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\FeuchteLuft.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\ProcessToolbar.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
